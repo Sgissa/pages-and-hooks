@@ -11,7 +11,19 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>{children}</body>
+      <body className={inter.className}>
+        <nav className='mainNav'>
+          <ul>
+            <li>
+              <a href='/'>Home</a>
+            </li>
+            <li>
+              <a href='/pokemon'>Pokemon</a>
+            </li>
+          </ul>
+        </nav>
+        {children}
+        </body>
     </html>
   )
 }
