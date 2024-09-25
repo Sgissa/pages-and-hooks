@@ -30,8 +30,6 @@ const [searchTerm, setSearchTerm] = useState("");
 
 const [pokemonEncounters, setPokemonEncounters]= useState([]);
 
-console.log("pokemonEncounters",
-pokemonEncounters);
 
 function changeSearchTerm(e) {
     setSearchTerm(e.currentTarget.value.toLowerCase());
