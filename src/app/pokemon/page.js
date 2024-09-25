@@ -70,9 +70,6 @@ useEffect( function () {
  [pokemon]
 );
 
-
-
-
     return (
         <main>
             <h1>Pokemon Page</h1>
